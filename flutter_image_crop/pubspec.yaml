@@ -1,0 +1,19 @@
+name: flutter_image_crop
+description: A simple image cropping package for Flutter
+version: 1.0.0
+homepage: https://github.com/VajaVishal/flutter_image_crop/tree/stages_branch
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
