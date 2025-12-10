@@ -9,7 +9,7 @@ A simple, native image cropping library for Flutter without third-party dependen
 - 🚫 No Platform Channels - Pure Dart implementation
 
 ## ✨ Preview
-![image](https://github.com/user-attachments/assets/3ff32e13-bdef-4899-b0d4-4a6cf5db4eaa)
+![screen-20251210-1741314](https://github.com/user-attachments/assets/6c30e084-c1f9-43c0-b2c2-06d0b5d1cb0c)
 
 
 
