@@ -1,19 +1,14 @@
+import 'dart:async';
+import 'dart:io';
 import 'package:flutter/services.dart';
 
 class NativeImagePicker {
   static const MethodChannel _channel =
   MethodChannel('native_image_picker');
 
-  static Future<String?> pickImageFromGallery() async {
-    try {
-      final String? imagePath = await _channel.invokeMethod('pickImage');
-      return imagePath;
-    } on PlatformException catch (e) {
-      print("❌ Platform error: ${e.message}");
-      return null;
-    } catch (e) {
-      print("❌ Error: $e");
-      return null;
-    }
+  static Future<File?> pickImage() async {
+    final path = await _channel.invokeMethod<String>('pickImage');
+    if (path == null) return null;
+    return File(path);
   }
 }
