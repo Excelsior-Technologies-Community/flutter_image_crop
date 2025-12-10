@@ -8,6 +8,11 @@ A simple, native image cropping library for Flutter without third-party dependen
 - 📱 Responsive Design - Works on all screen sizes
 - 🚫 No Platform Channels - Pure Dart implementation
 
+## ✨ Preview
+![image](https://github.com/user-attachments/assets/3ff32e13-bdef-4899-b0d4-4a6cf5db4eaa)
+
+
+
 ## Installation
 Add to your pubspec.yaml :
 ```
@@ -128,3 +133,23 @@ FlutterImageCropScreen(
 ## Performance Tips
 - Image Size: Resize large images before cropping for better performance
 - Memory Management: Dispose of image resources properly
+
+## 📜 License
+MIT License
+```
+Copyright (c) 2025 Excelsior Technologies
+
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all  
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
