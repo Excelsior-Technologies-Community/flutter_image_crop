@@ -1,4 +1,4 @@
-# flutter_image_crop
+# ImageCropperView
 A simple, native image cropping library for Flutter without third-party dependencies. Built with pure Dart and Flutter widgets.
 
 ## Features
